@@ -1,20 +1,30 @@
-<h1>Group</h1>
+<h1><font color="red"><font size= "50"><center>Group.ME</center></font></font></h1>
 
 <br>
 
 <html>
 
-<body style="background-color:pink;">
+<style>
+body {
+        background-image: url("sunset.jpg");
+height: 100%; 
+background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} 
+ 
+</style>
 
 <form>
 
   <div class="page 2">
-    <label for="interests"><b>What do you wanna do?</b></label>
-	<input type="text" placeholder="i.e, bowling" name= "what are your interests" required>
+   <center> <label for="interests"><b>What do you wanna do?</b></label> </center>
+	<center> <input type="text" placeholder="i.e, bowling" name= "what are your interests" required> </center>
 	
     
 	
-     <button type="submit">Enter</button>
+  <center>   <button type="submit">Enter</button> </center>
 	</div>
 
 </form>
@@ -44,6 +54,11 @@ db.collection("Activities").get().then((querySnapshot) => {
 
 
 </script>
-<a href="Page3.html" onclick="location.href=this.href+'?key=' +scrt_var;return false;">Link to Activities</a>
+<a href="Page3.html" onclick="location.href=this.href+'?key=' +scrt_var;return false;">Skiing</a>
+<a href="Page3.html" onclick="location.href=this.href+'?key=' +scrt_var;return false;">Painting</a>
+<a href="Page3.html" onclick="location.href=this.href+'?key=' +scrt_var;return false;">Surfing</a>
+<a href="Page3.html" onclick="location.href=this.href+'?key=' +scrt_var;return false;">Bowling</a>
+<a href="Page3.html" onclick="location.href=this.href+'?key=' +scrt_var;return false;">Swimming</a>
+<a href="Page3.html" onclick="location.href=this.href+'?key=' +scrt_var;return false;">Hacking</a>
 </body>
 </html> 
